@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "font-1";
+  src: url(../assets/fonts/coure.fon);
+}
+
+$font-1: "font-1", sans-serif;
+
+$color-1: #61dafb;
+$color-2: salmon;
+$color-3: #282c34;
+$white: rgb(243, 243, 243);
+$img-background: url('https://i0.wp.com/thumbs.gfycat.com/AcceptableGreedyDutchsmoushond-size_restricted.gif');
+
+@mixin verticalCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: $img-background ;
+  background-size: cover;
+  font-family: $font-1;
+  // @include verticalCenter;
+}
+li {
+  list-style-type: none;
+}
