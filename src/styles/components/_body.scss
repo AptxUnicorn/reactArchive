@@ -4,7 +4,9 @@
 
 .container {
     max-width: 1000px;
-    margin: 0 auto;
+    width: 1000px;
+    margin: auto;
+    order :2;
 }
 .header {
     width: 100%;
@@ -33,21 +35,26 @@
     display: flex;
 }
 .main {
-    background-color: #4529c5;
+    background-color: #2d3685;
     flex: 1;
     padding: 20px;
     order: 2;
 }
-aside {
-    background-color: #272d88;
-    width: 200px;
-    padding: 20px;
-    font-size: smaller;
-   /* this makes the sidebar text slightly smaller */
-}
+
 #rightSidebar {
     order: 3;
 }
 #leftSidebar {
     order: 1;
+}
+
+.sidebar {
+    background-color: #272d88;
+    width: 200px;
+    padding: 20px;
+    font-size: smaller;
+}
+
+.transbar {
+    width: 200px ;
 }

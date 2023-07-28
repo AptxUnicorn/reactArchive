@@ -1,21 +1,13 @@
 import React from 'react';
-import Navigation from "../components/Navigation"
+import Body from "../components/Body"
 
 const HomePage = () => {
+
+    const page = { ltext: " Welcome on Homepage", rtext: " mustang" }
+
     return (
         <div>
-            <div className='container'>
-                <div className='header'></div>
-                <Navigation />
-                <div className='flex'>
-                    <div className='main'>
-                        <p>LOVE YOU FUCKING ALL </p>
-                        <h1>Nah, justkidding</h1>
-                    </div>
-                    <aside id='rightSidebar'><p>right</p></aside>
-                    <aside id='leftSidebar'><p>left</p></aside>
-                </div>
-            </div>
+            <Body props={page} />
         </div>
     );
 };
