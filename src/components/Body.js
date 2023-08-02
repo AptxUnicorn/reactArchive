@@ -13,13 +13,13 @@ const Body = ({ props }) => {
                 <Navigation />
                 <div className='flex'>
                     <div className='main'>
-                        <p>WIP but will never be working !!! </p>
+                        {props.maincontent}
                     </div>
                     <aside id='rightSidebar' className='sidebar'>
-                        <p>{props.rtext}</p>
+                        {props.rcontent}
                     </aside>
                     <aside id='leftSidebar' className='sidebar'>
-                        <p>{props.ltext}</p>
+                        {props.lcontent}
                     </aside>
                 </div>
             </div>

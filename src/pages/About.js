@@ -3,7 +3,7 @@ import Body from "../components/Body";
 
 const About = () => {
 
-    const page = { ltext: " Ceci est un text sur la page ABOUT", rtext: " Prononcer : ABOUTE" }
+    const page = { lcontent: " Cfkjghsdfldl fkdflkjgh sdlge ABOUT lodqlsk jh", rcontent: " Prononcer : ABOUTE", maincontent: "MAIN" }
 
     return (
         <div>
