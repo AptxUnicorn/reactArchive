@@ -6,9 +6,11 @@
 $font-1: "font-1", sans-serif;
 
 $color-1: #298da8;
-$color-2: rgb(48, 63, 196);
+$color-2: rgb(46, 86, 145);
 $color-3: #282c34;
-$white: rgb(243, 243, 243);
+$backgroundcolor: rgb(28, 25, 48);
+$rightcolor : rgb(42, 88, 102);
+$leftcolor : rgb(49, 71, 99) ;
 $img-background: url('https://i0.wp.com/thumbs.gfycat.com/AcceptableGreedyDutchsmoushond-size_restricted.gif');
 
 @mixin verticalCenter {
@@ -24,7 +26,7 @@ $img-background: url('https://i0.wp.com/thumbs.gfycat.com/AcceptableGreedyDutchs
 }
 
 body {
-  background-image: $img-background ;
+  background-color: $backgroundcolor ;
   background-size: cover;
   font-family: $font-1;
   // @include verticalCenter;

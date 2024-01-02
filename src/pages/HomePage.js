@@ -1,10 +1,11 @@
 import React from 'react';
 import Body from "../components/Body"
+import RightSideBarContent from '../components/RightSideBarContent';
 
 const HomePage = () => {
 
 
-    const page = { lcontent: "cette page", rcontent: " mustang", maincontent: "EHEHEHEH" }
+    const page = { lcontent: <RightSideBarContent />, rcontent: " mustang", maincontent: "EHEHEHEH" }
 
     return (
         <div>

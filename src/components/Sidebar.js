@@ -8,6 +8,9 @@ const Sidebar = () => {
         <aside className="sidebar">
             <div className="transbar">
                 <div className="box">
+                    <div className="boxing">
+                        SALUT !
+                    </div>
                 </div>
             </div>
             <div className="box2">
