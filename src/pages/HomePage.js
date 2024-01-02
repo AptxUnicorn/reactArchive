@@ -1,11 +1,10 @@
 import React from 'react';
 import Body from "../components/Body"
-import ThemeSelector from '../components/ThemeSelector';
 
 const HomePage = () => {
 
 
-    const page = { lcontent: <ThemeSelector />, rcontent: " mustang", maincontent: "EHEHEHEH" }
+    const page = { lcontent: "cette page", rcontent: " mustang", maincontent: "EHEHEHEH" }
 
     return (
         <div>

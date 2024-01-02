@@ -1,5 +1,8 @@
 :root {
-    --header-image: url('https://i.pinimg.com/originals/dd/2c/9e/dd2c9e089b2ff3d1abb56fecd529e3f6.gif')
+    --header-image: url('https://i.pinimg.com/originals/dd/2c/9e/dd2c9e089b2ff3d1abb56fecd529e3f6.gif');
+    --header_color: #118080;
+    --rightsidebar_color: #258b7c;
+    --leftsidebar_color: #29a18f;
 }
 
 li {
@@ -14,7 +17,7 @@ li {
 }
 .header {
     width: 100%;
-    background-color: $color-1;
+    background-color: var(--header_color);
     height: 150px;
     background-image: var(--header-image);
     background-size: cover;
@@ -47,14 +50,15 @@ li {
 }
 
 #rightSidebar {
-    order: 3;
+    order: 1;
+    background-color: var(--rightsidebar_color);
 }
 #leftSidebar {
-    order: 1;
+    background-color: var(--leftsidebar_color);
+    order: 3;
 }
 
 .sidebar {
-    background-color: $color-1;
     width: 200px;
     font-size: smaller;
 }
